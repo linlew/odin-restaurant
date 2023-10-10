@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+#content {
+    background: lightgrey;
+}
+
+.header {
+    background: grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.page {
+    padding: 10px;
+}
+
+.page:hover {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    height: 400px;
+    width: 300px;
+    margin: 80px 10px
+}
+
+p {
+    margin: 1rem;
+    font-size: 1.5rem;
+    line-height: 150%;
+}
